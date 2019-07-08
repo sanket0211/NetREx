@@ -20,9 +20,10 @@
 ```sh
 $ git clone https://github.com/sanket0211/NetREx.git
 ```
-- Follow instructions to install Neo4j and MySQL in the Neo4j and MySQL folder. 
-- Go to /application/config/database.php and put username, password and database name. This will ensure the the web application connects to the MySQL server. 
-- Install the following python libraries
+- Follow instructions to install Neo4j and MySQL in the Neo4j and MySQL folder. Also follow the instructions to load the schema. 
+- Go to /application/config/database.php and put username, password and database name. This will ensure the the web application connects to the MySQL server.
+- Go to <your ip>/NetREx and the web page should open. 
+- Install the following python libraries to run a flask application in background which will help query Neo4j. 
 ``` 
 flask
 neo4j
