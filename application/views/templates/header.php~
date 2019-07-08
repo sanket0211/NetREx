@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CD</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="<?php echo base_url().'assets/css/style.css' ;?>" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="container">
+  <div id="layoutMenu">
+    <ul>
+      <li><a href="#">Amphibians</a></li>
+      <li><a href="#">Birds</a></li>
+      <li><a href="#">Bugs</a></li>
+      <li><a href="#">Fish</a></li>
+      <li><a href="#">Invertebrates</a></li>
+      <li><a href="#">Mammals</a></li>
+      <li><a href="#">Prehistoric</a></li>
+      <li><a href="#">Reptiles</a></li>
+    </ul>
+  </div>
+  <div id="layoutHeader">
+    <h1><a href="#">CD-CoNet</a></h1>
+    <h2>A Condition-dependent Co-expression Network Server for Rice
+    (Oryza sativa)</h2>
+  </div>
+  <div id="layoutCenterBody">
+    <div id="layoutNavigation">
+      <div class="navTitle">
+        <h3>Contents</h3>
+      </div>
+      <ul>
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Go to Rice Net</a></li>
+        <li><a href="#">User Manual</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
