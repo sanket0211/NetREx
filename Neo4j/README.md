@@ -4,16 +4,15 @@
 
 | File | Description |
 | ------ | ------ |
-| FlaskAppNeo4j | This file contains basic python code to connect to MySQL server. Just input the username, password and database name. |
-| NetREx.pdf | This pdf contains complete structure of the MySQL tables. |
-| schema.sql | This file contains the MySQL schema used at the backend of NetREx. | 
+| QueryNeo4j | This folder contains the Flask application which is used to query Neo4j and send the results to the NetREx. |
+| UploadData | This folder contains all the files and commands used to upload data to Neo4j.  |
 
 ### Installation and Loading Database
 
-- Install MySQL. Refer to [MySQL official documentation](https://dev.mysql.com/doc/)
-- Use the following command to create the NetREx MySQL database structure. 
+- Install Neo4j. Refer to [Neo4j official documentation](https://neo4j.com/docs/operations-manual/current/installation/)
+- open terminal and run the following command to start the cypher shell. 
 ```
-mysql -u username -p database_name < schema.sql
+cypher-shell -a bolt://<server where neo4j is hosted ip>:7687 -u <neo4j user name> -p <neo4j password>
 ```
 
 
