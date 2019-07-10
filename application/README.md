@@ -1,6 +1,6 @@
 # NetRex
 [NetREx Link](http://bioinf.iiit.ac.in/ricenet/ricenetwork/)
-[NetREx Model Diagram](./NetREx_model.png)
+![NetREx Model Diagram](./NetREx_model.png)
 
 ### FIles and Folder Information
 
