@@ -45,5 +45,18 @@ MATCH (n:<N>)-[r]->(m:<N>) RETURN COUNT(r)
 ```
 MATCH (n)-[r]->() RETURN COUNT(r)
 ```
+- The following Cypher query is used to upload edges to Neo4j Backend. 
+```
+USING PERIODIC COMMIT LOAD CSV FROM <Link to the csv file containing the four fields node1, node2, edge_attribute1, edge attribute2> AS line FIELDTERMINATOR <>  MATCH(u:ShootOsmoGene{name:line[0] }), (r:<NodeLabel>{name:line[1]}) CREATE (u)-[:CONNECTED_TO{correlation_coefficient:line[3], hrr_rank:line[2]}]->(r);
+```
 
-
+- The following Cypher query helps to get all the nodes related to gene x
+```
+MATCH (b) - [r] - (:Cold_DROUGHTGene {name: x})
+RETURN b
+```
+- The following Cypher query helps to get all relations related to gene x
+```
+MATCH (b) - [r] - (:Cold_DROUGHTGene {name: x})
+RETURN b
+```
