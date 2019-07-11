@@ -22,5 +22,5 @@
 ![Heat Maps](./heat_map.png)
 ![network viewer](./network_viewer.png)
 ![network_neighbourhood](./network_neighbourhood.png)
-![module viewer](.module_viewer.png/)
+![module viewer](./module_viewer.png)
 
